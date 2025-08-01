@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket = "condormatics-prog8830-ak8508"
+    bucket = "terraform-ci-cd-ak8508"
     key    = "terraform.tfstate"
     region = "us-east-1"
 
